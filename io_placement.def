@@ -1,0 +1,23 @@
+# custom io_placement file
+# <pin_name> from the design <side> which side the port is to be placed <order> which port is to be placed first
+clk top 1
+rst top 2
+
+#outputs
+out_lfsr[0] left 1
+out_lfsr[1] left 2
+out_lfsr[2] left 3
+out_lfsr[3] left 4
+out_lfsr[4] left 5
+out_lfsr[5] left 6
+out_lfsr[6] left 7
+out_lfsr[7] left 8
+
+out_lfsr[8] right 1
+out_lfsr[9] right 2
+out_lfsr[10] right 3
+out_lfsr[11] right 4
+out_lfsr[12] right 5
+out_lfsr[13] right 6
+out_lfsr[14] right 7
+out_lfsr[15] right 8
